@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:windswept_hills",
+    {
+      "id": "#c:windswept",
+      "required": false
+    }
+  ]
+}

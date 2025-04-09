@@ -1,0 +1,15 @@
+{
+    "name": "Red Panda",
+    "description": "Adorable jungle dwellers which can often be seen climbing trees or sleeping in the shade.",
+    "powers": [
+        "origins:climbing",
+		"origins:fragile",
+		"spiral:small",
+		"spiral:bamboo_eater"
+    ],
+    "icon": {
+        "item": "minecraft:bamboo"
+    },
+    "order": 0,
+    "impact": 1
+}

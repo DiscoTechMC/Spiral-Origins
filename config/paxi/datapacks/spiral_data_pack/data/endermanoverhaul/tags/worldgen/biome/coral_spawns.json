@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:warm_ocean",
+    {
+      "id": "#c:beach",
+      "required": false
+    },
+    {
+      "id": "#c:ocean",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+	"name": "Flammable",
+    "description": "You take increased fire damage.",
+    "type":"origins:modify_damage_taken",
+	"modifier":{
+		"value":0.5,
+		"operation":"multiply_base"
+	},
+	"damage_condition":{
+		"type":"origins:fire"
+	}
+}

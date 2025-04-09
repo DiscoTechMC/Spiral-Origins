@@ -1,0 +1,11 @@
+{
+    "name": "Resilient",
+	"description": "You have a little bit of natural armor.",
+	"type": "origins:attribute",
+    "modifier": {
+        "name": "Natural Armor health bonus",
+        "attribute": "minecraft:generic.armor",
+        "value": 4.0,
+        "operation": "addition"
+    }
+}

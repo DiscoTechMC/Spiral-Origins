@@ -1,0 +1,15 @@
+{
+  "features": {
+    "enabled": [
+      "minecraft:bundle"
+    ]
+  },
+  "pack": {
+    "description": "Backport bundle recipe\nby Sorcell",
+    "pack_format": 15,
+    "supported_formats": {
+      "min_inclusive": 9,
+      "max_inclusive": 41
+    }
+  }
+}

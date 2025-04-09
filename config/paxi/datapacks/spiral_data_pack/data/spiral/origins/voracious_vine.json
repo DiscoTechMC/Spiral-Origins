@@ -1,0 +1,16 @@
+{
+    "name": "Voracious Vine",
+    "description": "Fearsome plantlike creatures which lie in wait for unsuspecting victims to pass by before snatching them up.",
+    "powers": [
+        "origins:carnivore",
+		"origins:climbing",
+		"spiral:snap_trap",
+		"spiral:poison_touch",
+		"spiral:flammable"
+    ],
+    "icon": {
+        "item": "minecraft:pitcher_plant"
+    },
+    "order": 0,
+    "impact": 2
+}

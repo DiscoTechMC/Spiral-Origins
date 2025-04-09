@@ -1,0 +1,16 @@
+{
+    "name": "Undead",
+    "description": "Corpses which have been reanimated through supernatural means. They possess all the strengths and weaknesses of undead mobs.",
+    "powers": [
+        "spiral:lightly_armored",
+		"spiral:lifesteal",
+        "origins:burn_in_daylight",
+		"spiral:eat_flesh",
+		"spiral:undead"
+    ],
+    "icon": {
+        "item": "minecraft:zombie_head"
+    },
+    "order": 0,
+    "impact": 3
+}

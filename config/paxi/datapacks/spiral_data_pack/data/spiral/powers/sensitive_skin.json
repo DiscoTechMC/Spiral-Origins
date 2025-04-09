@@ -1,0 +1,37 @@
+{
+    "name": "Sensitive Skin",
+    "description": "You will become slow and weak when exposed to direct sunlight, unless you are in water.",
+    "type": "origins:stacking_status_effect",
+    "min_stacks": -10,
+    "max_stacks": 1,
+    "duration_per_stack": 21,
+    "effects": [
+        {
+            "effect": "minecraft:weakness",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        },
+        {
+            "effect": "minecraft:slowness",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        }
+    ],
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:exposed_to_sun"
+            },
+            {
+                "type": "origins:fluid_height",
+                "fluid": "minecraft:water",
+                "comparison": ">",
+                "compare_to": 0.0,
+                "inverted": true
+            }
+        ]
+    }
+}

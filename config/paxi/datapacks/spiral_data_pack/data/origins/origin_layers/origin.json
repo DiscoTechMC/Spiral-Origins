@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "origins": [
+    "spiral:red_panda",
+    "spiral:frog",
+    "spiral:undead",
+    "spiral:voracious_vine"
+  ]
+}

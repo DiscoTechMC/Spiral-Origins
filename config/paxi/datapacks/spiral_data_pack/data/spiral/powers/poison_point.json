@@ -1,0 +1,20 @@
+{
+	"name": "Poisonous",
+	"description": "Your skin secretes a toxin which poisons attackers when you are hit.",
+	"type": "origins:attacker_action_when_hit",
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effect": {
+			"effect": "minecraft:poison",
+			"duration": 200,
+			"amplifier": 0,
+			"show_particles": false,
+			"show_icon": false
+		}
+	},
+	"cooldown": 100,
+	"hud_render": {
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"bar_index": 18
+	}
+}

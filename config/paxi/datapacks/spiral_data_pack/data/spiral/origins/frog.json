@@ -1,0 +1,20 @@
+{
+    "name": "Ribbit",
+    "description": "A race of music-loving amphibious people native to swamps. They are excellent jumpers and swimmers, but can't handle the sun well.",
+    "powers": [
+        "origins:aqua_affinity",
+		"spiral:amphibious",
+		"origins:fall_immunity",
+		"spiral:leap",
+		"spiral:poison_point",
+		"spiral:sensitive_skin",
+		"origins:fragile",
+		"spiral:high_jump",
+		"spiral:swim"
+    ],
+    "icon": {
+        "item": "minecraft:lily_pad"
+    },
+    "order": 0,
+    "impact": 2
+}
